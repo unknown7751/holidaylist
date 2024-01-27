@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cutive&family=Montserrat+Alternates:wght@600&family=Ropa+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cutive&family=Montserrat+Alternates:wght@600&family=Ropa+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cute+Font&family=Cutive&family=Montserrat+Alternates:wght@600&family=Ropa+Sans&family=Saira:wght@200&display=swap);
+
+#date{
+    font-family: 'Saira';
+    color: white;
+    width: 125px;
+
+}
+a{
+    text-decoration:underline;
+    text-align: center;
+    margin-top: 4vh;
+    color: white;
+    font-family: 'Courier Prime';
+}
+
+table{
+    border-style: none;
+}
+.myTble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#05080C ;
+    border: 1px solid white;
+    height: 500PX;
+    border-radius: 10px;
+    width: 610px;
+    margin-top: 10px;
+    /*position: fixed;
+    right: 565px;
+    top: 200px;;*/
+}
+.content{
+    display: grid;
+    justify-content: center;
+    align-items: center
+}
+
+.date{
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    border-image: linear-gradient(to right, rgba(46,49,146,1), rgba(27,255,255,1)) 10;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 8px;
+border-style: solid;
+}
+.info{
+    background-image: linear-gradient(to right, rgba(46,49,146,1), rgba(27,255,255,1));
+    padding: 10px;
+    color: white;
+    font-family: 'Nunito';
+    border-radius: 10px;
+    width: 333px;
+}
+body{
+    background-color: #0C0F14;
+    padding: 0;
+    margin: 0;
+}
+#myTableBody{
+    padding: 10px;
+}
+#myTable{
+    padding: 30px;
+    border-spacing: 28px;
+}
+#heading h2{
+    font-family: 'Montserrat Alternates';
+    color: white;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    position: relative;
+    top: 31%;
+}
+#heading{
+background-image:linear-gradient(to right, rgba(46,49,146,1), rgba(27,255,255,1)) ;
+height: 100px;
+background-color: #0C0F14;
+}
+
+
+.button img{
+    width: 40px;
+}
+
+.button{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 10px;;
+}
+.button button{
+    background-color: transparent;
+    border: 0;
+}
+
+.passedDate{
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    border-image: linear-gradient(to right, #868F96, #596164) 10;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 8px;
+border-style: solid;
+opacity: 45%;
+}
+
+.passedInfo{
+    background-image: linear-gradient(to right, #868F96 , #596164);
+    padding: 10px;
+    color: white;
+    font-family: 'Nunito';
+    border-radius: 10px;
+    width: 333px;
+    opacity: 45%;
+}
+
+@media screen and (max-width :450px){
+    .info{
+        width: 300px;
+        height: 5px;
+    }
+    .passedInfo{
+        width: 300px;
+        height: 5px;
+    }
+    .myTble{
+        width: 360px;
+        border-radius: 10px;      
+        margin-top: 10px;
+        margin-left: 0.12%;
+        justify-content: center;
+        align-items: center;
+    }
+    #myTable{
+        border-spacing: 26px;
+        padding: 50px;
+        margin-top: 3px;
+        width: max;
+        padding: 30px ;
+        border-spacing: 19px;
+        margin-left: 20px;
+    }
+    #myTableBody{
+        padding: 50px;
+    }
+    #monthHeading{
+        margin-right: 5px;
+    }
+    #heading h2{
+        margin-right: 31px;
+    }
+    .button img{
+        width:40px;
+        margin-bottom: 20px;
+    }
+    .button{
+        margin-left: 2%;
+        margin-top: 1;
+    }
+    #b1{
+       margin-left: -1%;
+       margin-top: 4%;
+    }
+    #b2{
+       margin-top: 4%;
+       margin-left: 15%;
+    }
+    #date{
+        margin-left: 15%;
+    }
+}
